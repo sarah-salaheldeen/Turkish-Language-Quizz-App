@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/quiz_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/name_question"
+            style="@style/TextViewsStyle"
+            android:text="@string/your_name" />
+
+        <EditText
+            android:id="@+id/name_answer"
+            style="@style/ViewsPadding"
+            android:layout_width="match_parent"/>
+
+        <TextView
+            style="@style/TextViewsStyle"
+            android:text="@string/why_learning_new_languages" />
+
+        <CheckBox
+            android:id="@+id/fun_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fun" />
+
+        <CheckBox
+            android:id="@+id/culture_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cultures_and_people" />
+
+        <CheckBox
+            android:id="@+id/movies_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/movies" />
+
+        <TextView
+            android:id="@+id/question1"
+            style="@style/TextViewsStyle"
+            android:text="@string/telephone_translation_question" />
+
+        <RadioGroup
+            android:id="@+id/answer1"
+            style="@style/ViewsPadding">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/su"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bisiklet"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <RadioButton
+                android:id="@+id/correct_answer1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/telefon"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:text="@string/semsiye"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question2"
+            style="@style/TextViewsStyle"
+            android:text="@string/good_morning_translation_question" />
+
+        <RadioGroup
+            android:id="@+id/answer2"
+            style="@style/ViewsPadding">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/iyi_aksamlar"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Allahaısmarladık"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Tünaydın"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <RadioButton
+                android:id="@+id/correct_answer2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:text="@string/Günaydın"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question3"
+            style="@style/TextViewsStyle"
+            android:text="@string/good_afternoon_translation_question" />
+
+        <RadioGroup
+            android:id="@+id/answer3"
+            style="@style/ViewsPadding">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/İyi_akşamlar"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <RadioButton
+                android:id="@+id/correct_answer3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Tünaydın"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Günaydın"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Allahaısmarladık"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question4"
+            style="@style/TextViewsStyle"
+            android:text="@string/good_evening_translation_question" />
+
+        <RadioGroup
+            android:id="@+id/answer4"
+            style="@style/ViewsPadding">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/anahtarlar"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <RadioButton
+                android:id="@+id/correct_answer4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/İyi_akşamlar"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Allahaısmarladık"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Çok_teşekkür_ederim"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question5"
+            style="@style/TextViewsStyle"
+            android:text="@string/please_translation_question" />
+
+        <RadioGroup
+            android:id="@+id/answer5"
+            style="@style/ViewsPadding">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Özür_dilerim"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <RadioButton
+                android:id="@+id/correct_answer5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Lütfen"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sol"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/merhaba"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question6"
+            style="@style/TextViewsStyle"
+            android:text="@string/thank_you_translation_question" />
+
+        <RadioGroup
+            android:id="@+id/answer6"
+            style="@style/ViewsPadding">
+
+            <RadioButton
+                android:id="@+id/correct_answer6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Teşekkür_ederim"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Allahaısmarladık"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Özür_dilerim"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sağ"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/submit_button" />
+
+    </LinearLayout>
+</ScrollView>
+

@@ -1,0 +1,13 @@
+
+-correct answers:
+question1 => telefon
+
+question2 => Gunaydin
+
+question3 => Tunaydin
+
+question4 => Iyi aksamlar
+
+question5 => Lutfen
+
+question6 => Tesekkur ederim

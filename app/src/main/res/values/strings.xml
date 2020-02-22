@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Turkish Language Quizz</string>
+    <string name="answer_no_1">answer no. 1</string>
+    <string name="answer_no_2">answer no. 2</string>
+    <string name="answer_no_3">answer no. 3</string>
+    <string name="submit">Submit</string>
+    <string name="this_is_the_first_question_please_answer_correctly_or_you_will_die">This is the first question. Please answer correctly or you will die!</string>
+    <string name="your_name">Hello there, what\'s your first name?</string>
+    <string name="why_learning_new_languages">You love learning new languages because? [check all that apply]</string>
+    <string name="fun">it\'s fun!</string>
+    <string name="cultures_and_people">I love learning about new cultures and people</string>
+    <string name="movies">I would like to watch movies and series without subtitles</string>
+    <string name="telephone_translation_question">What is the correct translation for \'telephone\' ?</string>
+    <string name="su">su</string>
+    <string name="bisiklet">bisiklet</string>
+    <string name="telefon">telefon</string>
+    <string name="semsiye">şemsiye</string>
+    <string name="good_morning_translation_question">How do you say \'Good morning\' ?</string>
+    <string name="iyi_aksamlar">İyi akşamlar</string>
+    <string name="good_afternoon_translation_question">How do you say \'Good afternoon\' ?</string>
+    <string name="Tünaydın">Tünaydın</string>
+    <string name="Günaydın">Günaydın</string>
+    <string name="good_evening_translation_question">How do you say \'Good evening\' ?</string>
+    <string name="anahtarlar">anahtarlar</string>
+    <string name="İyi_akşamlar">İyi akşamlar</string>
+    <string name="Çok_teşekkür_ederim">Çok teşekkür ederim</string>
+    <string name="please_translation_question">What is the correct translation for \'Please\' ?</string>
+    <string name="Lütfen">Lütfen</string>
+    <string name="sol">sol</string>
+    <string name="merhaba">Merhaba</string>
+    <string name="thank_you_translation_question">How do you say \'Thank You\' ?</string>
+    <string name="Teşekkür_ederim">Teşekkür ederim</string>
+    <string name="Allahaısmarladık">Allahaısmarladık</string>
+    <string name="Özür_dilerim">Özür dilerim</string>
+    <string name="sağ">sağ</string>
+    <string name="submit_button">Submit</string>
+</resources>
