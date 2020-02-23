@@ -34,4 +34,19 @@
     <string name="Özür_dilerim">Özür dilerim</string>
     <string name="sağ">sağ</string>
     <string name="submit_button">Submit</string>
+    <string name="some_turkish_words_made_it_into_english_like">Some turkish words made it into english like:</string>
+    <string name="yogurt">yogurt</string>
+    <string name="cat">cat</string>
+    <string name="kebab">kebab</string>
+    <string name="turkish_before_1928">In which language turkish was written before 1928?</string>
+    <string name="learning_is_fun">It\'s super fun indeed</string>
+    <string name="cultures_people">Learning about different cultures is always interesting</string>
+    <string name="movies_are_great">Movies are great :)</string>
+    <string name="Arabic">Arabic</string>
+    <string name="arabic">arabic</string>
+    <string name="wow">WOW</string>
+    <string name="answered_correctly">you answered all of them correctly!</string>
+    <string name="correct_answers">Correct answers:</string>
+    <string name="do_better">you could do better</string>
+    <string name="first_name">First name</string>
 </resources>

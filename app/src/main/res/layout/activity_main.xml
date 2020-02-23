@@ -21,7 +21,9 @@
         <EditText
             android:id="@+id/name_answer"
             style="@style/ViewsPadding"
-            android:layout_width="match_parent"/>
+            android:layout_width="match_parent"
+            android:inputType="text"
+            android:hint="@string/first_name"/>
 
         <TextView
             style="@style/TextViewsStyle"
@@ -49,10 +51,40 @@
         <TextView
             android:id="@+id/question1"
             style="@style/TextViewsStyle"
+            android:text="@string/some_turkish_words_made_it_into_english_like" />
+        <CheckBox
+            android:id="@+id/correct_answer1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yogurt" />
+        <CheckBox
+            android:id="@+id/answer1_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cat" />
+        <CheckBox
+            android:id="@+id/correct_answer1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kebab" />
+
+        <TextView
+            android:id="@+id/question2"
+            style="@style/TextViewsStyle"
+            android:text="@string/turkish_before_1928" />
+        <EditText
+            android:id="@+id/answer2"
+            android:layout_width="match_parent"
+            style="@style/ViewsPadding"
+            android:inputType="text"/>
+
+        <TextView
+            android:id="@+id/question3"
+            style="@style/TextViewsStyle"
             android:text="@string/telephone_translation_question" />
 
         <RadioGroup
-            android:id="@+id/answer1"
+            android:id="@+id/answer3"
             style="@style/ViewsPadding">
 
             <RadioButton
@@ -68,7 +100,7 @@
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
             <RadioButton
-                android:id="@+id/correct_answer1"
+                android:id="@+id/correct_answer3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/telefon"
@@ -83,12 +115,12 @@
         </RadioGroup>
 
         <TextView
-            android:id="@+id/question2"
+            android:id="@+id/question4"
             style="@style/TextViewsStyle"
             android:text="@string/good_morning_translation_question" />
 
         <RadioGroup
-            android:id="@+id/answer2"
+            android:id="@+id/answer4"
             style="@style/ViewsPadding">
 
             <RadioButton
@@ -110,7 +142,7 @@
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
             <RadioButton
-                android:id="@+id/correct_answer2"
+                android:id="@+id/correct_answer4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingBottom="8dp"
@@ -119,12 +151,12 @@
         </RadioGroup>
 
         <TextView
-            android:id="@+id/question3"
+            android:id="@+id/question5"
             style="@style/TextViewsStyle"
             android:text="@string/good_afternoon_translation_question" />
 
         <RadioGroup
-            android:id="@+id/answer3"
+            android:id="@+id/answer5"
             style="@style/ViewsPadding">
 
             <RadioButton
@@ -134,7 +166,7 @@
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
             <RadioButton
-                android:id="@+id/correct_answer3"
+                android:id="@+id/correct_answer5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/Tünaydın"
@@ -154,12 +186,12 @@
         </RadioGroup>
 
         <TextView
-            android:id="@+id/question4"
+            android:id="@+id/question6"
             style="@style/TextViewsStyle"
             android:text="@string/good_evening_translation_question" />
 
         <RadioGroup
-            android:id="@+id/answer4"
+            android:id="@+id/answer6"
             style="@style/ViewsPadding">
 
             <RadioButton
@@ -169,7 +201,7 @@
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
             <RadioButton
-                android:id="@+id/correct_answer4"
+                android:id="@+id/correct_answer6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/İyi_akşamlar"
@@ -189,12 +221,12 @@
         </RadioGroup>
 
         <TextView
-            android:id="@+id/question5"
+            android:id="@+id/question7"
             style="@style/TextViewsStyle"
             android:text="@string/please_translation_question" />
 
         <RadioGroup
-            android:id="@+id/answer5"
+            android:id="@+id/answer7"
             style="@style/ViewsPadding">
 
             <RadioButton
@@ -204,7 +236,7 @@
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
             <RadioButton
-                android:id="@+id/correct_answer5"
+                android:id="@+id/correct_answer7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/Lütfen"
@@ -224,16 +256,16 @@
         </RadioGroup>
 
         <TextView
-            android:id="@+id/question6"
+            android:id="@+id/question8"
             style="@style/TextViewsStyle"
             android:text="@string/thank_you_translation_question" />
 
         <RadioGroup
-            android:id="@+id/answer6"
+            android:id="@+id/answer8"
             style="@style/ViewsPadding">
 
             <RadioButton
-                android:id="@+id/correct_answer6"
+                android:id="@+id/correct_answer8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/Teşekkür_ederim"
