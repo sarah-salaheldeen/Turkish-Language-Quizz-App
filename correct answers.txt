@@ -1,13 +1,17 @@
 
 -correct answers:
-question1 => telefon
+question1 [turkish words made it to english] => CheckBox1 and CheckBox3
 
-question2 => Gunaydin
+question2 => arabic or Arabic
 
-question3 => Tunaydin
+question3 => telefon
 
-question4 => Iyi aksamlar
+question4 => Gunaydin
 
-question5 => Lutfen
+question5 => Tunaydin
 
-question6 => Tesekkur ederim
+question6 => Iyi aksamlar
+
+question7 => Lutfen
+
+question8 => Tesekkur ederim
